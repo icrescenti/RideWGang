@@ -1,6 +1,6 @@
 # RideWGang
 
-All projects on: https://github.com/icrescenti?tab=repositories
+All projects on: https://github.com/icrescenti?tab=projects
 
 ## 1. About
 Red Dead Redemption 2 Ride With Gang mod allows players to go free with the members of Dutch's gang. They will cover you up and follow anywhere to help you in your journeys.
