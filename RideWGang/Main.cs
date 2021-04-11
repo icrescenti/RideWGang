@@ -267,9 +267,14 @@ namespace RideWGang
             }
 
             #region player things
+
             if (Game.Player.Character.Model.Hash == 1944593012)
             {
                 voic = "DUTCH";
+            }
+            else if (Game.Player.Character.Model.Hash == 11966224)
+            {
+                voic = "JOHN_PLAYER";
             }
             else
             {
