@@ -18,4 +18,5 @@ D:\WORKSHOP\games\RideWGang\compiled\RideWGang.dll
 D:\WORKSHOP\games\RideWGang\compiled\RideWGang.pdb
 D:\WORKSHOP\games\RideWGang\compiled\scripts\RideWGang.dll
 D:\WORKSHOP\games\RideWGang\compiled\scripts\RideWGang.pdb
-D:\WORKSHOP\games\RideWGang\RideWGang\obj\Debug\RideWGang.csprojAssemblyReference.cache
+G:\rdr2\Red Dead Redemption 2\scripts\RideWGang.dll
+G:\rdr2\Red Dead Redemption 2\scripts\RideWGang.pdb
