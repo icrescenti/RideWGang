@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>G:\rdr2\Red Dead Redemption 2\scripts\</OutputPath>
+    <OutputPath>..\compiled\scripts\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ScriptHookRDRNetAPI">
-      <HintPath>..\dependencies\ScriptHookRDRNetAPI.dll</HintPath>
+      <HintPath>..\compiled\ScriptHookRDRNetAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,7 +54,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>xcopy /s ".." "G:\rdr2\Red Dead Redemption 2\" /K /D /H /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>
