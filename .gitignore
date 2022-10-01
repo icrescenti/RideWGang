@@ -1,2 +1,4 @@
 compiled/*
 obj/*
+Properties/*
+*.csproj
